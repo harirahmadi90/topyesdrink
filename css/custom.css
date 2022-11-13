@@ -22,6 +22,11 @@ body {
     z-index: 2; 
 }
 
+.navMenu.scrolled {
+    background-color: #192440 !important;
+    transition: background-color 200ms linear;
+}
+
 .navMenu a, .navMenu span {
     color: #f6f4e6;
     text-decoration: none;

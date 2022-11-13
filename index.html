@@ -17,12 +17,20 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script>
         function onScroll(id) {
             var element = document.getElementById(id);
-            element.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+            element.scrollIntoView({ behavior: 'smooth' });
         }
+
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navMenu");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
     </script>
 </head>
 
@@ -33,7 +41,7 @@
         </div>
         <div class="link-container">
             <span onclick="onScroll('banner')">Home</span>
-            <a href="index.html">Product</a>
+            <a href="product.html">Product</a>
             <span onclick="onScroll('contact')">Kontak</span>
         </div>
         <div class="dot"></div>
