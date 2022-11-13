@@ -7,7 +7,7 @@
 
 body {
     background: #272727;
-    font-family: Poppins !important;
+    font-family: Poppins, sans-serif !important;
     overflow-x: hidden;
 }
 
