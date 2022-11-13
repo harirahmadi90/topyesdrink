@@ -1,6 +1,5 @@
 /********** common setting **********/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
 
 body {
     background: #272727;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
@@ -18,8 +17,8 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    padding: 16px;
+    
+    padding: 10px;
     z-index: 2; 
 }
 
