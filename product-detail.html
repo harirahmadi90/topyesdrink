@@ -37,14 +37,14 @@
 
         let data = {
             1: {
-                name: 'Serbuk Minuman',
+                name: 'Taro',
                 description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
                 image: 'img/feature-1.png'
             },
             2: {
                 name: 'Nutri Sari',
-                description: 'Minuman Nutri Sari',
-                image: 'img/feature-2.png'
+                description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
+                image: 'img/feature-1.png'
             },
             3: {
                 name: 'Red Velvet',
@@ -63,10 +63,10 @@
         window.onload = (event) => {
             let element = document.getElementById("product-detail").innerHTML = `
                 <div class="container text-center text-md-left">
-                    <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 font-weight-bold my-5 text-header text-success">
+                    <h2 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 font-weight-bold my-5 text-header text-success">
                         ${data[params.id]?.name ?? '-'}
-                    </h1>
-                    <img src=${data[params.id]?.image} alt="" style="width: 500px; object-fit: contain;">
+                    </h2>
+                    <img src=${data[params.id]?.image} alt="" style="width: 300px; object-fit: contain;">
                     <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-success my-4 font-weight-bold">
                         ${data[params.id]?.description ?? '-'}
                     </p>
