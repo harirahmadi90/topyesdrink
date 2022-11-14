@@ -206,8 +206,11 @@ button {
 
 /********** feature (skew background) **********/
 .feature img {
-    width: 160%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 #feature-first {
