@@ -23,7 +23,7 @@ body {
 }
 
 .navMenu.scrolled {
-    background-color: #192440 !important;
+    background-color: #54B435 !important;
     transition: background-color 200ms linear;
 }
 
@@ -206,8 +206,8 @@ button {
 
 /********** feature (skew background) **********/
 .feature img {
-    width: 100%;
-    max-width: 400px;
+    width: 160%;
+    max-width: 500px;
 }
 
 #feature-first {
@@ -255,7 +255,7 @@ button {
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background: #54B435;
     padding: 2rem 3rem;
 }
 
@@ -263,12 +263,12 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 99%;
-    background: #ffffff;
+    background: #192440;
     transition: .4s ease;
 }
 
 #copyright #social-media a i {
-    color: #192440;
+    color: #ffffff;
     font-size: 1.2rem;
     line-height: 40px;
 }
