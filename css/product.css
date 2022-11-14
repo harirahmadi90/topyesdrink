@@ -15,7 +15,7 @@
 }
 
 .navMenu.scrolled {
-    background-color: #192440 !important;
+    background-color: #54B435 !important;
     transition: background-color 200ms linear;
 }
 
@@ -59,9 +59,9 @@ figure h1 {
     margin: 0;
     padding: 0;
     color: black !important;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    line-height: 1;
+    padding: 8px 0;
 }
 figure img {
     height: 100%;
@@ -101,6 +101,14 @@ figure figcaption button {
     border-radius: 5px;
     color: white;
     font-size: 14px;
+}
+
+@media (max-width: 450px) {
+    figure img {
+        height: fit-content;
+        position: absolute;
+        top: 120px; 
+    }
 }
 
 
