@@ -103,13 +103,13 @@ figure figcaption button {
     font-size: 14px;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
     figure img {
         height: fit-content;
         position: absolute;
-        top: 120px; 
+        top: 1px; 
     }
-}
+} */
 
 
 
