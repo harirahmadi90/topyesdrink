@@ -228,14 +228,24 @@ button {
 }
 
 #price-table__premium {
-    background: #192440;
+    background: #BA94D1;
     color: #ffffff;
 }
-
+#price-table_premium1{
+    background-color: #59C1BD;
+}
+#price-table_premium3 {
+    background-color: #fddb3a;
+}
 #price-table ul li {
     padding: 5px 0;
 }
-
+#price-table_premium4{
+    background-color: #277BC0;
+}
+#price-table_premium5{
+    background-color: #7DCE13;
+}
 /********** contact **********/
 #contact {
     background-size: cover;
